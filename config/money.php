@@ -720,14 +720,23 @@ return [
     'IRR' => [
         'name'                => 'Iranian Rial',
         'code'                => 364,
-        'precision'           => 2,
+        'precision'           => 0,
         'subunit'             => 100,
         'symbol'              => '﷼',
-        'symbol_first'        => true,
+        'symbol_first'        => false,
         'decimal_mark'        => '.',
         'thousands_separator' => ',',
     ],
-
+    'IRT' => [
+        'name'                => 'Iranian Toman',
+        'code'                => 364,
+        'precision'           => 0,
+        'subunit'             => 100,
+        'symbol'              => 'تومان',
+        'symbol_first'        => false,
+        'decimal_mark'        => '.',
+        'thousands_separator' => ',',
+    ],
     'ISK' => [
         'name'                => 'Iceland Krona',
         'code'                => 352,
